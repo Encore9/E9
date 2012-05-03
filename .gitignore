@@ -1,0 +1,15 @@
+Thumbs.db
+*.pdb
+*.manifest
+*.log
+E9txting/bin
+E9txting/obj
+*.user
+*.suo
+_ReSharper.*
+*.sln.cache
+*.xap
+*.vspcc
+*.vscc 
+*.vssscc
+[Pp]ublish/

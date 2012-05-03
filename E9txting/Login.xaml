@@ -1,0 +1,13 @@
+﻿<Window x:Class="Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Login" Height="190" Width="350" Icon="pack://application:,,,/Encore-9 Texting Service;component/Images/texting icon.ico" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="24,46,0,0" Name="txtUser" VerticalAlignment="Top" Width="150" TabIndex="1" />
+        <Button Content="Login" Height="23" HorizontalAlignment="Left" Margin="204,46,0,0" Name="btnLogin" VerticalAlignment="Top" Width="75" TabIndex="4" />
+        <CheckBox Content="Remember Me" Height="16" HorizontalAlignment="Left" Margin="204,90,0,0" Name="chkRem" VerticalAlignment="Top" TabIndex="3" />
+        <Label Content="Gmail Login" Height="28" HorizontalAlignment="Left" Margin="24,12,0,0" Name="Label1" VerticalAlignment="Top" />
+        <Label Content="Password" Height="28" HorizontalAlignment="Left" Margin="24,78,0,0" Name="Label2" VerticalAlignment="Top" />
+        <PasswordBox Height="23" HorizontalAlignment="Left" Margin="24,112,0,0" Name="txtPass" VerticalAlignment="Top" Width="150" TabIndex="2" />
+    </Grid>
+</Window>
